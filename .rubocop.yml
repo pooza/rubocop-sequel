@@ -2,7 +2,11 @@ require:
   - rubocop-rspec
 
 AllCops:
-  TargetRubyVersion: 2.4
+  AllowSymlinksInCacheRootDirectory: true
+  DisplayCopNames: true
+  NewCops: enable
+  TargetRubyVersion: 3.0
+  SuggestExtensions: false
 
 # Offense count: 1
 # Configuration parameters: CountComments, ExcludedMethods.
